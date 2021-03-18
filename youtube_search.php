@@ -35,11 +35,7 @@ $result = curl_exec($ch);
 
 $phpObj = json_decode($result,true);
 echo '-------<br>';
-
-
-
 echo '-------<br>';
-
         echo'<h1> Buscando palabra Clave: '.$busqueda.'<h1>';
 
             foreach ($phpObj['items'] as $key => $value) 
