@@ -12,6 +12,8 @@ $regionCode='AR';
 
 $type='video';
 
+$Maxresult='10';
+
 $part='id,snippet';
 
 $url =$url_youtube;
@@ -21,6 +23,7 @@ $url.='&order=relevance';
 $url.='&q='.$busqueda;
 $url.='&regionCode='.$regionCode;
 $url.='&type='.$type;
+$url.='&maxResults='.$Maxresult;
 
 echo $url.'<br>';
 
